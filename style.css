@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container{
+	margin: 0 auto;
+	padding: 0 30px;
+	max-width: 1140px;
+}
+body{
+	background: linear-gradient(black,white,brown);
+}
+
+.box,.box1{
+	width: 100px;
+	height: 100px;
+	font-size: 56px;
+	text-align: center;
+	line-height: 100px;
+	float: left;
+}
+
+.box{
+	background-color: #fff;
+}
+.box1{
+	background-color: #913a3a;
+	float: left;
+}
+
+.clear-float{
+	clear: both;
+}
+
+
+
+
